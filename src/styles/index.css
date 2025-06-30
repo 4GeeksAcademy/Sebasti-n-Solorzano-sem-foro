@@ -1,11 +1,40 @@
-/* 
 
-    You can write your own styles here...
+.cable {
+    background-color: black;
+    height: 105px;
+    width: 12px;
+    margin: auto;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.caja-principal {
+
+    background-color: black;
+    height: 250px;
+    width: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    background-color: antiquewhite;
+
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 3px;
+    
+}
+
+    
+
+
+
+
+
+
+
